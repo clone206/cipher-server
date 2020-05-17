@@ -11,7 +11,7 @@ https://dotnet.microsoft.com/download/dotnet-core/3.1
 ## To run on local machine
 From the root of the cloned directory, assuming the dotnet cli was successfully added to your path by installing the above:
 
-`dotnet run`
+`dotnet run` (this should perform a nuget restore automatically)
 
 Example usage:
 
