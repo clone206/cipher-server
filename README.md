@@ -57,8 +57,3 @@ On a machine with Docker running, from the root of the cloned directory:
 docker build --rm --pull -f "./Dockerfile" -t "cipherserver:latest" "./"
 docker run --rm -it  -p 23456:23456/tcp cipherserver:latest
 ```
-
-## To test a live demo version running on port 80 in the Azure cloud
-`curl -v http://cipher-server.azurewebsites.net/api/encode -d '{"Shift": 20, "Message": "Hey buddy. Hows it goin?"}' -H "Content-Type: application/json" -H "Accept: application/json"`
-
-(wait for app service to spin up)
